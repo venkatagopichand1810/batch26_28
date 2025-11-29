@@ -1,0 +1,15 @@
+join is used to combine rows from two or more tables in RDBMS
+
+1) inner join 
+    ..return only the records that have matching values from both the tables
+
+2) left join 
+    -- RETURNS ALL THE Records from the left table(customer) and matching rows from the right table(orders)
+
+3) right join
+ -- RETURNS ALL THE Records from the right table(ORDER) and matching rows from the left table(CUSTOMER)
+
+4) full outer join 
+ --- retuns all the the records when ther is a match in either of the table 
+
+5) cross join ---cartesian product

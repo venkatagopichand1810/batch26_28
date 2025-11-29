@@ -1,0 +1,46 @@
+
+block level elements:
+div
+p
+h1 to h6
+header, 
+footer, 
+section, 
+aside, 
+nav, 
+main, 
+figure, 
+address, 
+details, 
+figcaption
+ul
+li 
+table
+tr
+td
+form 
+headerpre
+legend
+
+lnline elements:
+span
+a href
+strong 
+b
+em 
+i 
+u
+mark 
+small
+abbr
+cite 
+img
+input
+button
+textarea
+select
+sub
+sup
+
+
+css : display: inline, display: block

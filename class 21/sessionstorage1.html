@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id = "username" placeholder="Enter your name">
+
+        <button onclick="login()">Login</button>
+        <button onclick="logout()">Logout</button>
+
+        <p id = "status"></p>
+
+        <script>
+            // on page page
+            window.onload = function() {
+                let user = sessionStorage.getItem('username'); //get the value from local storage
+                document.getElementById("status").innerText = user ? "Welcome back, " + user : "You are not logged in";
+            }
+            function login() {
+
+                let name = document.getElementById("username").value;
+                sessionStorage.setItem("username", name);
+                document.getElementById("status").innerText = `Welcome, ${name}`
+
+            }
+
+            function logout() {
+                sessionStorage.removeItem("username");
+                  document.getElementById("status").innerText = `You are logged out successfully`
+            }
+        </script>
+
+    </body>
+</html>

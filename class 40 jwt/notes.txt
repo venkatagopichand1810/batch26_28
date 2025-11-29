@@ -1,0 +1,24 @@
+JWT -> JSON WEB TOKEN
+
+JWT is used to share the information b/w the client and server in a secure way in the form of digitally signed TOKEN
+
+JWT MAINLY
+1) Authentication 
+2) Authorization
+3) secure data exchange
+
+JWT flow
+--------------
+user login in the website
+
+email + password -> server verifies -> server creates the JWT token -> client(browser) stores the token(in the Local storage)
+
+-> for each request -> the client send the token to the server -> server veirfy the token -> response
+
+
+A JWT 3 parts
+1) header -> type & alog
+2) payload -> data(userid, email, some userinfo)
+3) signature -> proof that token is valid or not(secret key)
+
+jwt is encoded, digitally signed and we canot the modified 

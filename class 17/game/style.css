@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-front {
+    height: 200px;
+    width: 200px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.card-back {
+    height: 200px;
+    width: 200px;
+    transform: rotateY(90deg);
+}
+
+
+.fliped .card-back {
+    transform: rotateY(0deg);
+}

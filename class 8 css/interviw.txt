@@ -1,0 +1,42 @@
+what is html5
+diff html5 vs html4
+what is doctype html and why we have to use
+what are meta tags and its imporatance 
+what is the use of meta viewport tag
+diff inline, block 
+how to create the table in html 
+what is diff rowspan and colspan 
+what the semantic elements and non-semantic elements
+what is the advantage of semantic elements
+what are diff tags in html name some of them 
+what is diff b/w span and div
+waht is dif id and class 
+what are diff formatting tags in html 
+what is an iframe 
+what is embed, object media types in html 
+diff media elements in html 
+diff svg and canvas 
+how to create html links 
+how to show pdf in html 
+what are the diff input elements in html 
+diff checkbox and radio 
+diff select and datalist 
+what is form action 
+how to create the calender in html 
+how to make website seo freindly
+what is alt attribute in img tag 
+what is the purpose ot _target blanck 
+how to create dropdown list in html 
+what is the required, placeholder attributes 
+diff disabled and readonly 
+how to include exteranl javascript file 
+html input types, 
+html input attribute 
+html form elements
+html form attributes 
+html form actions 
+server sent events 
+web worker
+cookie 
+local storage 
+session storage

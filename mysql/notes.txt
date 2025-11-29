@@ -1,0 +1,56 @@
+Database: collection of data that we can able to access easily, we can manage, update and delete..
+it contains the user details
+
+Types of databases:
+
+Relational database: (RDBMS)..stores the data in the tables rows columns
+
+Table: Collection of data in rows and columns
+row/record: a single entry in the table
+column/field: a single attribute of data
+
+
+
+Non-Relational Database(noSQL)
+data will be stored in key value pair
+
+
+
+MYSQL
+---------------------------------
+MYSQL is the open-source RDBMS...
+railways
+mysql enterprise applications
+high perforamance
+most secure database 
+supports the SQL(Structured query language)
+
+
+
+mysql engines
+--------------------------
+mysql supports different storage engines
+
+store videos, audio
+store csv 
+store live streaming data 
+store lakhs of data
+
+
+different mysql data engines
+---------------------------------
+1) InnoDB .....default engine of the mysql 
+2) MYISAM ...... older engine...heavy operations
+3) Memory .....stores the data in RAM (computer is restarted data will be lost)
+4) CSV ...... stores csv or excel files 
+
+js
+------
+var name = "venkat";
+typeof name..
+var value = 100
+number
+
+typescript
+--------
+var name:string = "venkat"

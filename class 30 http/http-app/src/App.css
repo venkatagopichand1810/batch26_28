@@ -1,0 +1,28 @@
+.post-container {
+  /* max-width: 600px; */
+  padding: 20px;
+  background-color: wheat;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: orange;
+
+}
+
+.post-list {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.post-card {
+  background-color: antiquewhite;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid black
+}

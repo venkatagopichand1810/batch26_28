@@ -1,0 +1,43 @@
+what is html5
+diff b/w html4 vs html5
+what is the importance of doctype and why is mandatory to add
+is html5 is case sensitive 
+what are the importance meta tags
+what is viewport and its usage in html and css
+what is the diff b.w inline and block elements 
+how to create the tables in html 
+diff b/w rowspan and colspan 
+what are the diff html lists 
+what are the semantic elements 
+diff b/w semantic and non-semantic elements 
+what is diff b/w cookies, session storage and local storage
+what are the html media elements 
+how to show pdf in html 
+what is iframe
+diff b/w svg and canvas 
+diff select and datalist 
+what are different form attributes in html
+what are the diff input elements in html 
+what are the diff input attributes in html 
+what is target _blank 
+list the inline elements
+list the block elements 
+create simple login or register form in html 
+diff b/w id and class 
+diff b/w div vs span 
+what are the diff formatting tags 
+what is diff b/w ordered list and unordered list 
+how to validate forms in html 
+how to embed one html page into another html page 
+what is server sent events
+what are webworkers 
+how to create the calender in html 
+diff b.w embed and object in html
+what are html entities 
+how to add html elements using browser 
+how to debug html code 
+how to create html links 
+how to add page title and icon to the web page in html 
+what is the usage of textarea 
+what is diff b/w disabled and readonly in input 
+how to add caption and legend to html table 

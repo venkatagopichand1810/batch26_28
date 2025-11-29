@@ -1,0 +1,31 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li a {
+   text-decoration: none;
+   font-size: 24px;
+
+}
+
+.nav-links li a:hover {
+  color: orange;
+}

@@ -1,0 +1,3 @@
+prop drilling is process of passing props from the parent component to deeply 
+nested child components
+through muliple intermediate components (might need not be needed but still we have to pass)

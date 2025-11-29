@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins";
+}
+
+header {
+    background-color: #FEFCFB;
+    width: 100%;
+    height: auto;
+}
+
+.main-container {
+    padding: 0 0 40px 0;
+}
+
+.container {
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: "volkhov";
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding-right: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+nav ul li a:hover{
+    color: #FD8D3A
+}
+
+.login a {
+    margin-right: 20px;
+    color: #FD8D3A;
+    text-decoration: none;
+}
+
+.login a:hover {
+    background-color: #FA7436;
+    color: white;
+    padding: 15px 50px
+}
+
+@media (max-width: 576px) {
+    .container {
+        font-size: 10px;
+    }
+    .logo img {
+        width: 15px;
+    }
+    
+    nav ul li {
+        padding-right: 10px;
+    }
+    .login a {
+        padding-right: 10px;
+    }
+}
+
+.hero {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 15%;
+}
+
+.hero .hero-text {
+     font-size: 40px;
+}
+.hero .hero-text  h1 {
+    font-family: "volkhov";
+}
+
+.hero .hero-text  h1  span{
+    color: #FA7436;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: gray;
+    word-spacing: 5px;
+    padding: 20px 0;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.hero-text a {
+    font-size: 20px;
+    color: #FA7436;
+    border: 2px solid #FA7436;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+.hero-text a:hover{
+    font-size: 20px;
+    background-color: #FA7436;
+    color: white;
+}
+
+.hero-explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hero-explore .explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 40px;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-explore .explore h4 {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 10px;
+}
+
+.explore i {
+    color: #FA7436;
+    font-size: 15px;
+}
+
+.explore p {
+    font-size: 12px;
+    padding-top: 10px;
+    color: gray;
+}
+
+.explore a {
+    text-decoration: none;
+    margin: 5px 10px;
+    background-color: #FA7436;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(243, 106, 1, 0.5)
+}
+
+.explore a:hover {
+    background-color: #f5621d;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: #F7F8FC;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.things {
+    display: flex;
+    justify-content: center;
+}
+
+.things h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 100px;
+    font-family: "Volkhov";
+}
+.things h1 span {
+    color: #f5621d;;
+}
+
+.things p {
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+    line-height: 20px;
+    position: relative;
+    left: 30%;
+    width: 270px;
+}
+.things img {
+    width: 140px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container1, .container2, .container3{
+    width: 200px;
+    background-color: white;
+    text-align: start;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 40px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container1 img, .container2 img, .container3 img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.container1 p, .container2 p, .container3 p{
+    font-size: 10px;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.main1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    position: relative;
+    width: 240px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content p{
+    font-weight: 500;
+    text-align: center;
+}

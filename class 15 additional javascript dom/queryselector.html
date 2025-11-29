@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1 id="heading">Welcome</h1>
+    <h1 id="heading">Hello everyone</h1>
+    <button onclick="clickMe()">click me</button>
+
+    <script>
+        function clickMe() {
+            // using the querySelector we can able to select the elements with id, class and tag
+            // querySelector will selects only one element
+            const headings = document.querySelector("h1");
+            headings.style.color = "orange"
+        }
+
+    </script>
+</body>
+
+</html>

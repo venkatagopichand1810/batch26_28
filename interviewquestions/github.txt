@@ -1,0 +1,23 @@
+
+you have some changes in your vs code, you have to push to code into github 
+
+git init  -> init the git repo 
+git status -> it will check the changes of the files 
+git add . -> it will add all the files 
+git add specific path of the file -> add add only single file 
+git commit -m "commit message" -> committing message 
+git push 
+
+git clone "repo url"
+
+how to merge two branches 
+git merge 
+
+how to create new branch using git bash 
+git branch -m "brach name" 
+
+how to swith b/w the branches 
+git checkout 
+
+how to resolve git conflicts 
+using git conflict merger

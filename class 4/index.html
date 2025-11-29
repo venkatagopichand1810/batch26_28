@@ -1,0 +1,87 @@
+<script>
+
+
+// welcome(); //function calling
+// greet();
+// hello();
+// something();
+
+// function welcome() { //function declaration
+//     console.log("hello")
+// }
+// ;
+
+// function greet() { //function declaration
+//     console.log("hello")
+// }
+
+
+
+
+// function hello() { //function declaration
+//     console.log("hello")
+// }
+
+
+
+// function something() { //function declaration
+//     console.log("hello")
+// }
+
+
+// (function () {
+//     const username = "venkat";
+
+//     alert(`welcome back ${username}`)
+
+// })();
+
+
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+// let evenNumbers = numbers.filter(number => number % 2 === 0);
+// console.log(evenNumbers)
+
+// let users = [
+//     { name: "venkat", active: true },
+//     { name: "bob", active: false },
+//     { name: "john", active: true },
+//     { name: "shilpa", active: true },
+//     { name: "rekha", active: false },
+//     { name: "ambrish", active: false },
+// ];
+
+
+// let activeUsers = users.filter(user => user.active === true);
+// console.log(activeUsers)
+
+
+const user = {
+    id: 101,
+    name: "venkat",
+    role: "developer"
+};
+
+//get all the keys of the object
+const keys = Object.keys(user);
+console.log("Keys:", keys)
+
+////get all the vaues of the object
+const values = Object.values(user);
+console.log("Values:", values);
+
+//get all key-value paris as an array of arrays
+
+const entries = Object.entries(user);
+console.log("Entries:", entries);
+
+// loop over the entries
+
+entries.forEach(([key, value]) => {
+    console.log(key, ":", value)
+})
+
+
+
+
+</script>

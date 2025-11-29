@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* all unvisited links, which we havn't clicked */
+            a:link {
+                color: green;
+            }
+
+            /* links that are visited */
+
+            a:visited {
+                color: orange;
+            }
+
+            /* when the user hovers on the element with the mouse  */
+            a:hover, div:hover{
+                color: salmon;
+                background-color: green;
+            }
+
+            /* element is being clicked, current moment */
+            a:active {
+                color: rgb(255, 0, 0)
+            }
+
+            button {
+                padding: 20px;
+            }
+            button:hover {
+                background-color: brown;
+                color: white;
+                outline: 2px solid orange;
+                 cursor: pointer;
+            }
+            /* div:hover {
+                background-color: aquamarine;
+                cursor: pointer;
+            } */
+
+        </style>
+    </head>
+    <body>
+
+        <a href="https://www.google.com/" target="_blank">Click to visit Google</a>
+    
+        <br><br>
+         <button>Click me</button>
+
+         <div>
+            This is some div
+         </div>
+    
+    
+    </body>
+</html>
+
+
+
+
+
+
+
+<!-- pseudo classes are used to define a special state to the element, links 
+ 
+link
+
+visited,
+
+
+hover
+
+
+active
+
+
+
+a...visited, active, link, hover
+
+all other tags :hover
+
+
+
+-->

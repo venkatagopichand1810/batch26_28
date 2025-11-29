@@ -1,0 +1,26 @@
+
+#header {
+    background-color: orange;
+    padding: 20px;
+    
+}
+
+#main {
+    background-color: gray;
+    padding: 20px;
+}
+
+#venkat_footer {
+    background-color: violet;
+    padding: 50px;
+}
+
+.partnerships {
+    background-color: aqua;
+}
+
+.guidance {
+    color:orange
+}
+
+/* dom documnt object model....document.getElementByID(main) */

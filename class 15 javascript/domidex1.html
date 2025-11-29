@@ -1,0 +1,13 @@
+
+<input type="color" id = "colorvalue" onchange="colorChange()">
+
+<p>this is color change</p>
+
+<script>
+    function colorChange() {
+        const color  = document.getElementById("colorvalue").value;
+        console.log(color);
+        document.body.style.backgroundColor = color;
+    }
+
+</script>

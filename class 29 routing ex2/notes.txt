@@ -1,0 +1,3 @@
+useparams -> to extract id from the url
+useLocation -> check the user where he navigated from 
+useNavigate -> to naviage go back, redirect

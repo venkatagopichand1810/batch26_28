@@ -1,0 +1,13 @@
+node js -> JS runtime environment that is used to run the javascript outside of the browser(on the server).
+node js have inbuilt modules (http, fs, url, path, buffer, event, os) to help to create the servers, read/write files etc
+
+
+express js is the framework which is built on top of the node js that simplies 
+the server creation, routing, middleware, 
+req/res, authentication, authorizaiton, connecting to mongodb, mongoose
+
+
+
+auth, autho, routing, encrypting, bycripting, 
+
+

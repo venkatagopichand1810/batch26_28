@@ -1,0 +1,9 @@
+
+RWD-> Responsive web designing
+
+media qu
+flexbox -> 1 dimentional, rows or co
+grid -> 2 dimentional..we can both rows and dimentional
+
+
+

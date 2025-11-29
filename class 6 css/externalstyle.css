@@ -1,0 +1,35 @@
+        body {
+            background-color: grey;
+        }
+
+        h1 {
+            color: green;
+            background-color: black;
+        }
+        p {
+            font-size: 55px;
+            color: pink;
+            background-color: black;
+        }
+
+        div {
+            background-color: violet;
+        }
+
+        main {
+            color: orange;
+        }
+
+        footer {
+            background-color: rebeccapurple;
+        }
+
+        section {
+            background-color: olivedrab;
+        }
+
+        figure {
+          background-color: blue;
+        }
+
+

@@ -1,0 +1,58 @@
+
+variable is the names storage for data.. 
+box -> where we are putting some information, we can acccess name or we can change information
+
+why do we need variables 
+
+-> to store the data 
+-> to resuse the values without typing them again
+-> it will make our program flexible and dynamic
+
+var mobileNumber = "987888899" -> backend -> databas
+
+if mobilenumber = 987888899 -> proceed for the login
+
+in javascript -> there are three ways to declare the variables
+--- var -> we have only var
+---- let 
+---- const
+
+
+
+//var, let, const---global scope
+
+//var---
+reassginemnet is possible 
+redeclartion is possible 
+function scope, even though inside the block {} we can able to access the variables which are declared outside
+
+var a = 100
+if(true){
+    var a = 10;
+}
+console.log(a); //possible
+
+
+//let
+redeclartion is not possible
+reassginemnet is possible 
+block scope, we cannot able to access the value which delcared inside the block in outside
+
+let value = 100;
+if(true){
+    let a = 10;
+}
+console.log(a); //not possible
+
+
+//const
+redeclartion is not possible
+reassginemnet is not possible 
+declaration and assginment should happen in the same line
+block scope, we cannot able to access the value which delcared inside the block in outside
+
+const name = "venkat"
+if(true){
+    const a = 10;
+}
+console.log(a); //not possible

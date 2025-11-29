@@ -1,0 +1,18 @@
+usememo is hook that is used to memoizes the result of the function so that it will avoid the recalculation()
+
+to avoid unnecessary re-renders and it is used to avoid recomputing of the heavy calculations
+
+
+const person = {
+    name: "venkat", 
+    addres : {
+        street: {
+            zip: "523155"
+        }
+    }
+}
+
+
+
+uncontrolled forms: inputs are handled directly by the DOM itself, useRef to access the values
+

@@ -1,0 +1,58 @@
+0years to 10 + years
+
+what is css and why is it used
+different ways to apply the css to the webpage
+what is the diff inline internal and external styles 
+what is diff id and class 
+what is grouping selector 
+what is universal selector 
+what are the different css combinators 
+descendent selector, child selector, adjucent sibling selector, general sibling selector
+how do we center the div elemet horizontally and vertically center
+what is the diff visibility: hidden and display:none
+what is diff b.w diplay: none and display: block 
+diff b.w inline, block and inline-block
+what are the pseudo elements in css and name of them, and its usages
+what are the pseduo classes in css 
+what is z-index
+what is the image sprites (one image..)
+what is picture element
+diff b.e px, %, em , rem, vw, vh, vmin, vmax(css measurements)
+what is flex
+what is grid
+what is diff flex and grid 
+give the properties for flex 
+named the properties for grid 
+what is column layout 
+what is float and clearfix 
+waht is overflow layout and explain its properties
+what is the purpose of media query and give the syntax 
+write the media query for all the screens to show diff styles or responsives
+how we can make the website responsivesness 
+how we implement mobile first websites
+what is opacity 
+what is word-wrap 
+what is box model, create the box
+diff border, margin and padding 
+what are the different positions in css
+diff relative vs absolute 
+dif sticky and fixed 
+what is position static 
+diff b/w hover, active and focus 
+what are the css3 features
+@keyframes in css3.. for animations
+transitions and transforms 
+what is !important 
+what is calc() funtion in css 
+different backgroun properties in css 
+rgba and hsl
+inherit in css
+what is auto in css
+what is object-fit 
+what is the imp of link tag viewport 
+what is contain propery 
+diff auto fill and auto fit in grid 
+what is the user of currentColor 
+how to create grid in css and traingle in css 
+how to prevent the horizontal scoroll 
+what is the spcificity in css 

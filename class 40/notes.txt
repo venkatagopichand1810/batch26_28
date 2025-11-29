@@ -1,0 +1,1 @@
+dotenv is the package which loads the env variables from .env

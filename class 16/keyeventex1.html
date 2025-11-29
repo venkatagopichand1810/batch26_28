@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <textarea id = "message" maxlength="50" rows="4" cols = "50" placeholder="Enter your comments"></textarea>
+        <p id = "charcount">50 characters remaining</p>
+        <script>
+            const msg = document.getElementById("message");
+            const charCount = document.getElementById("charcount");
+
+            msg.addEventListener("keyup", function() {
+                const remaining = 50 - msg.value.length;
+                charCount.textContent = `${remaining} characters remaining`
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+node package manager
+
+app store -> all the apps ios iphone
+
+play store -> andriod 
+
+lg store -> 
+
+jio store -> 
+
+npm -> node package manager
+
+SPA -> LOADS ONLY ONE HTML PAGE...EVEN IF we have 1000 files.. only one html file will be loaded
+
+contents will be updated dynamically without reloading the whole page, only parts of the page will be updated, instead of entire page

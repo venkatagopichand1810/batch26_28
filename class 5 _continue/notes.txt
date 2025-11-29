@@ -1,0 +1,17 @@
+//table is used to display the data in rows and columns, simlar to excel sheet
+
+<table> -> table container tag
+<tr> -> table row
+<th> -> table header
+<td> -> table data
+
+rowspan: 
+
+
+
+colspan: (column span)
+It allows the cell to extend across muliple columns
+
+
+rowspan:
+It allows the cell to extend across muliple rows

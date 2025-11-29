@@ -1,0 +1,13 @@
+
+if we wanted to export only single react component
+while importing if we wanted to use differnt name 
+
+<div>
+<button>
+<section>
+<main>
+<header>
+
+jsx rule 
+it will display only numbers and strings.
+null, undefined, true or false will not render in the dom

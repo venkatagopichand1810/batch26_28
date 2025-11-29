@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample app</title>
+    </head>
+    <body>
+
+        <p id = "colorchange">This is paragraph</p>
+        <button onclick="changeColor()">Submit</button>
+
+        <img src = "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" id="myImg"  height="200" width="200" >
+
+        <button onclick="changeImage()">Change Image</button>
+        <script>
+            function changeColor() {
+                const p = document.getElementById("colorchange"); //selecting the elememt using the dom
+                p.style.color = "green"; //we are manipulating elements
+            }
+
+            function changeImage() {
+                const img = document.getElementById("myImg")
+                img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s"
+            }
+
+        </script>
+        
+
+    </body>
+</html>

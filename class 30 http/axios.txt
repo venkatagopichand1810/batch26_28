@@ -1,0 +1,8 @@
+if wanted to do any api call we can use either axios or fetch
+
+Axois is used to do API call,
+Axios is easier then fetch,, it will automaically converts the JONS response 
+we can handle the errors better when compare to fetch
+
+fetch in built with javascript 
+axios is the third party lib.. we have to install using npm.. npm install axios

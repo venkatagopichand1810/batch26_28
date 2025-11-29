@@ -1,0 +1,16 @@
+{
+  "name": "node-js-class-third-party-packages",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "moment": "^2.30.1"
+  }
+}

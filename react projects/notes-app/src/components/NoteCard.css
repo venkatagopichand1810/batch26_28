@@ -1,0 +1,153 @@
+.note-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  min-height: 200px;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.note-card.pinned {
+  border: 2px solid #fbbf24;
+  background: linear-gradient(to bottom, #fef3c7 0%, white 20%);
+}
+
+.pin-indicator {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: #fbbf24;
+  color: #92400e;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.note-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 0;
+  flex: 1;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.note-actions {
+  display: flex;
+  gap: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.note-card:hover .note-actions {
+  opacity: 1;
+}
+
+.action-btn {
+  background: transparent;
+  font-size: 1.125rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  background: #f7fafc;
+  transform: scale(1.1);
+}
+
+.action-btn.active {
+  background: #fef3c7;
+}
+
+.delete-btn:hover {
+  background: #fee;
+}
+
+.restore-btn:hover {
+  background: #efe;
+}
+
+.permanent-delete-btn:hover {
+  background: #fee;
+}
+
+.note-content {
+  flex: 1;
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: hidden;
+}
+
+.note-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.note-tag {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.note-date {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .note-card {
+    padding: 16px;
+    min-height: 180px;
+  }
+
+  .note-title {
+    font-size: 1.125rem;
+  }
+
+  .note-actions {
+    opacity: 1;
+  }
+
+  .action-btn {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,118 @@
+what is react 
+is react is the library or framework 
+what is diff react and other frameworks
+what are the main features of react 
+what is VM architecture 
+what is virtual dom in react 
+diff b/w virtual dom and real dom 
+how to setup react 
+can you explain the folder structure of react 
+when i open the react application in the browser how it will start
+index.html -> index.js -> app.js -> component 
+can we add javascript code in react 
+what is jsx 
+what is the advantages of jsx 
+what are the rules of jsx 
+what is jsx fragment 
+is browser going to undestand jsx? 
+what is babel with respect to jsx in browser 
+what is props 
+is it possible to modify the props 
+is props are mutable or immutable 
+how to pass the data from parent component to child component
+what is compositon in props 
+diff ways to apply props in react 
+how to pass the data from child component to parent component 
+what is callback in props 
+what is functional component 
+what is class component 
+diff b/w functional and class component 
+what is stateless component 
+what is statefull component 
+diff b/w stateless and statefull components 
+what is hooks in react 
+create the statefull component
+create the stateless component
+what is hook and its usage in react 
+what is state 
+can you updat the state?
+is state mutable or immutable
+how maintain the state of the application in react 
+what is usestate 
+how to import usestate in react 
+what is the syntax of usestate 
+diff b.w props and state 
+what is children prop in react 
+what is the importance of key prop in react 
+how to create higher order components in react 
+what is component in react 
+how to create the reusable components in react 
+what is useEffect 
+how to call the api and fetch the data using useEffect 
+what is side effects in react 
+how to clear the component using useEffect 
+what is the syntax for useEffect 
+if i am not using the dependency [] array, what is going when is use useEffect 
+can we have muliple dependencies in useEffect 
+what is useCallback 
+what is memo 
+what is useMemo 
+what is ref 
+what is forward ref 
+what is prop drilling and expalin in detail 
+what are the disadvantages of prop drilling 
+what are the functional life cycle methods in react or hooks 
+what are the lifecycle methods in react in class components
+componentDidmount(), componentDidUpdate(), componentWillUnmount(), shouldComponentUpdate()
+how doest setState works in react 
+diff ways to apply styles in react 
+what is inline styling in react 
+how do we handle the events in rect 
+what are synthatic events 
+how to create forms in react 
+what are controlled forms 
+what are uncontrolled forms 
+diff b/w controlled and uncontrolled forms in react 
+how to avoid prop drilling problems in react 
+what is useContext API hook and its advantages 
+what is useReducer hook in react 
+diff useState and useReducer in react 
+explain diff states of useReducer in react 
+what is conditional rendering 
+how to implement conditional rendering in react 
+how do we handle the forms in react
+how do we handle the form validations in react 
+how to render the list of elements in react 
+why key props are important in react lists 
+if key prop is not provided what the disadvantages
+what are error boundaries in react 
+how do we crate the error boudary in react 
+what is lazy loading 
+how to implement lazy loading in react and what are main advantages of lazy loading 
+what is pure component 
+how do we prevent re rendering in react 
+what is react router 
+how to implement routing in react 
+what is browserRouter 
+what is hasrouter 
+diff b/w browserRouter vs hasrouter 
+what is wildcard routing 
+how to show page not found route if user trying to access wrong url 
+what is link, navlink, redirect in react 
+what is useParams in react routing
+what is useNavigation, useLocation 
+how to implment nested routing in react router 
+what is outlet 
+how to implement dynamic routing in react 
+what is state managment 
+diff ways in react to managment state 
+how to maintain complex in react 
+what is react redux 
+diff b/w react redux and use context api 
+diff stages of react redux expalin in detail 
+what is diff /bw react reducx and react toolkit 
+what is the latest react redux 
+what is portals in react 
+how to create portals in react 
+what is redux thunk 
+how to implement SSR(server side rendering)

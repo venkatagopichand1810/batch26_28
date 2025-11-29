@@ -1,0 +1,30 @@
+
+<!-- password app -->
+
+
+<input type="password" id = "passwordField" oninput="checkPwdStrength()">
+<h1 id = "message">here some message will come</h1>
+
+<script>
+    function checkPwdStrength() {
+        const pwd = document.getElementById("passwordField").value; // i am selecting the input element
+        console.log("shilpa", pwd)
+        const message = document.getElementById("message"); // i am selecting the message element
+
+        if(pwd.length === 0){
+            message.textContent = ""
+        } else if (pwd.length < 6) {
+            message.textContent = "Weak password";
+            message.style.background = "red";
+            message.style.color = "white"
+        } else if (pwd.length === 6) {
+            message.textContent = "Medium Password";
+            message.style.background = "orange";
+            message.style.color = "black"
+        } else {
+            message.textContent = "strong Password";
+            message.style.background = "green";
+            message.style.color = "orange"
+        }
+    }
+</script>

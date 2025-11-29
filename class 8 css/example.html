@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Navbar
+    </title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .menu {
+            display: flex;
+            gap: 40px;
+        }
+
+        .navbar .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px
+        }
+
+        .navbar .menu a:hover {
+            color: black;
+            background-color: aquamarine;
+
+        }
+
+        input {
+            padding: 10px
+        }
+
+        button {
+            background-color: skyblue;
+            padding: 10px;
+        }
+
+        button:hover {
+            background-color: orange;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Flipkart</div>
+        <input type="text" placeholder="Enter your product name">
+        <button>Search</button>
+        <div class="menu">
+            <a href="">All</a>
+            <a href="">Fresh</a>
+            <a href="">Buy Again</a>
+            <a href="">MX Player</a>
+            <a href="">Gift Cards</a>
+            <a href="">Kindle eBooks</a>
+        </div>
+    </nav>
+</body>
+
+</html>

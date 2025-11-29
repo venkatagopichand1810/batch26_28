@@ -1,0 +1,21 @@
+<style>
+    .box {
+        background-color: orange;
+        padding: 20px;
+    }
+</style>
+
+
+<div id = "box" >Box</div> //adding the class
+<div id = "box" class="box">Box</div> //remove the class
+<button onclick="addClass()">Submit</button>
+
+<script>
+    function addClass() {
+        const box = document.getElementById("box");
+        box.classList.toggle("box"); //classList is the inbuilt function to add the class in Javascript
+        box.classList.add("box"); //adding the class
+        box.classList.remove("box"); //removing the class
+
+    }
+</script>

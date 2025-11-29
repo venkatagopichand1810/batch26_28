@@ -1,0 +1,24 @@
+id -> unique
+class -> class names
+
+
+document.getElementById("")...
+if we have muliple id's it will select only one getElementById
+id should be unique in the given page
+
+
+document.getElementByClassName("")
+if we have muliple classes it is going to apply style to all the getElementByClassName
+class we can have muliple
+
+document.getElementByTagName() it is going to select all the elements of that spcific tag name
+
+
+
+document.queryselector...we can select class, id, tag
+
+queryselector selects only one element
+
+
+document.queryselectorAll
+queryselectorAll selects all the elements

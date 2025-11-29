@@ -1,0 +1,17 @@
+
+5*******************
+inline: 
+
+it will not start on the new line
+how much ever width needed that much it will occupy
+we cannot set width and height to the inline elements
+
+
+block:
+starts on the new line
+it will full width
+we can set width and height
+
+inline-block
+it will not start on the new line (inline)
+we can set width and height(block)

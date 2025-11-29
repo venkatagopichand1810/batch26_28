@@ -1,0 +1,42 @@
+to maintain the state of the application 
+1) usestate: if we wanted to maintain the simple state of the application we have used usestate hook
+2) useReducer: if we wanted to maintain the complex state of the application we have used useReducer hook
+
+3) if we wanted to maintain the complex state of the application and we wanted to share that state with multiple components we have to use redux
+
+redux is not from the react, but it is the third party library
+
+Redux helps to manage the global state of the application, instead of passing the props from one component to another component
+
+Redux solve the follwing things
+1) one central store of the state
+2) any component can access or udpate the state withtout passing the props
+3) any component can subscribe to the state changes
+
+
+1) actions: actions are the plain javascript objects that describes the payload of information that is sent from your application to the redux store
+
+const increment = "increment";
+
+2) reducers: reducers are the pure functions that takes the previous state and action and returns the next state
+
+reduces it is going to check the prev statte and based on the action type it is going to give the updated new state
+
+counter = 0; 
+
+const reducer = (1, action) => {
+    switch (action.type) {
+        case "increment":
+            return state + 1; -> 2
+        default:
+            return state;
+    }
+}
+
+
+3) store: store is the object that holds the application state and provides a few helper methods to access the state, dispatch actions and register listeners
+
+store is the central place 
+1) holds the current state
+2) dispatch the actions
+3) it is going to nofity the components when the state changes

@@ -1,0 +1,36 @@
+what is the importance of tailwindcss
+diff ways to setup the tailwindcss
+diff tailwindcss cdn way of setup and npm way of setup 
+what is diff css and tailwindcss 
+what is tailwindcss
+what is the purpose of @tailwindcss directive 
+what are diff tailwindcss classes for typography 
+new few classes for padding in tailwindcss
+new few classes for margin, border, font-size, font-weight 
+how to customize the tailwindcss 
+how to make tailwindcss responsive without media queries
+name few tailwindcss responsive classes 
+how to apply hover, focus and active in tailwindcss
+how to condtionally apply the classes in tailwindcsshow
+what are diff layouts in tailwindcss
+give the list flex tailwindcss classes 
+give tailwindcss classes for the grid 
+give the tailwindcss classes for the position property
+how to apply diff colors in tailwindcss 
+how to generate gradients in tailwindcss 
+how to crate responsive nav bar using tailwindcss
+what are tailwindcss overflow classes 
+how to crate animations in tailwindcss
+how to use grid and flex 
+create simple example using tailwindcss grid 
+create the simple login form using tailwindcss
+how to add box shadow in tailwindcss
+diff b/w @apply and @import and @tailwind 
+diff b/w max-h and min-h 
+how to create the responsive website using tailwindcss 
+how to create tables in tailwindcss
+how to make tables responsive in tailwindcss 
+is it possible to customize completely using tailwindcss 
+how to add custom colors in tailwindcss
+how to add custom size, custom colors, custom typography in tailwindcss
+diff b/w sm, md, lg, xl and 2xl in tailwindcss 

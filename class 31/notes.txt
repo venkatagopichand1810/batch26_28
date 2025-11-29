@@ -1,0 +1,5 @@
+//to fix this prop drilling problem, we are going to use state management..context API
+//single source of truth
+
+//createContext
+//useContext hook

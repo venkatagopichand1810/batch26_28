@@ -1,0 +1,5 @@
+useEffect is the hook which are going to use side effects in the funcaional components
+
+//fetching data from the api
+// updating the dom 
+//running the code after the component render

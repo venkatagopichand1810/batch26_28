@@ -1,0 +1,23 @@
+useReducer hook is used to maintain the complex state of the application in react
+
+const[state, dispatch] = useReducer(reducer, initialState);
+
+state: The current state of the application
+dispatch: we are going to dispatch an action to change the state
+reducer: (state, action) => newState... it will simply tell to react how to update the state
+initialState: the starting value of the state
+
+
+reducer is a function which holds state and action...based on the action type,  state will change
+
+: state, action...based up on the action, state will update
+
+
+99%
+
+
+
+
+
+
+

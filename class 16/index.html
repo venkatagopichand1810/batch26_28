@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <!-- different ways to add events  -->
+
+    <!-- 1) inside html tag, inline event -->
+
+    <button onclick="hi()">Click me 1</button>
+
+    <script>
+        function hi() {
+            alert("venkat here")
+        }
+    </script>
+
+    <!-- #2) DOM element property -->
+
+    <button id='btn'>Click me 2</button>
+
+    <script>
+        // select the element
+        const btn = document.getElementById("btn");
+        btn.onclick = function () {
+            alert("2nd way of adding events")
+        }
+        btn.onclick = function () {
+            alert("payment process")
+        }
+
+    </script>
+
+
+    <!-- // #3) addEventListener() -->
+
+    <button id='btn2'>Click me 3</button>
+
+    <script>
+        // select the element
+        const btn2 = document.getElementById("btn2");
+        btn2.addEventListener("click", function () {
+            alert("Payment is process please wait")
+        })
+
+         btn2.addEventListener("click", function () {
+            alert("your payment is succesfully completed wait for 10 seconds")
+        })
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

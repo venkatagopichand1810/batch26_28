@@ -1,0 +1,18 @@
+javascript is single threaded(sync)...meaning it will execute only one task at the given time.
+
+event loop, we can do asynchronous task..non-blocking..
+
+callback -> callback hell -> promise -> promise chaining -> async await -> fetch -> error handling
+
+
+callback is a function passed as an argument to another function, which is then called inside the outer function 
+
+promise in js represent completion or failure of an operation
+
+1) resolve
+2) reject
+3) pending
+
+api ....resolve
+reject
+pending..

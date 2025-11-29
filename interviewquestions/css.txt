@@ -1,0 +1,88 @@
+what is css and why we are using css 
+different ways to apply the css 
+what is the diff b/w inline, internal and external css
+what is precedence or specificity of the above(3)
+what is the purpose of !important 
+what is the diff id and class 
+what is the group selector 
+list the css combinators 
+what is the universal selector
+diff child selector and descendent selector
+diff b.w general sibling selector and adjusent sibling selector
+how do we center the div element horizantally and veritcally...flexbox 
+what are the pseudo classes in css and give the list of pseudo classes
+what are the pseudo elements in css and give the list of pseudo elements
+diff b/w px em rem % vm and vh units 
+how to stack one image on top of another image
+how to add text on top of the image 
+what is the z-index 
+what is the image sprites 
+what is picture element
+diff b/w inline, block and inline-block 
+what is flex and why we have to use flexbox 
+what are the diff properties of the flexbox 
+what is grid and why we have to use grid
+diff properties of grid 
+grid vs flex 
+what is float and clearfix 
+what is oveflow property 
+diff overflow properties 
+how to make the website as a mobile first website 
+what are media queries and give the syntax 
+how to make the page responsive in all the devices, write the media query for the same
+what is box-sizing:border-box 
+what is opacity 
+diff b/w opacity and transparent 
+what is display: none 
+what is  visibility: hidden 
+diff b/w display: none and visibility:hidden 
+what is word-wrap 
+what is box model 
+diff padding, margin and border 
+how to apply multiple background images using css 
+what are diff css positions 
+diff b/w relative and absolute 
+diff b/w sticky and fixed 
+what is position: static
+what is the default position in css 
+d/w b/w hover, active and focus 
+what are the css3 features 
+how to create animations in css
+what is the importance of @keyframe and where we will use it 
+what is the white-space property
+what are diff css layouts 
+what is the column latyout in css 
+what is the attribute selector in css 
+how to select the input element using the attribute selector 
+what is text-overflow: ellipsis 
+what is calc() function in css 
+how to center the element inside the nested div using flex 
+diff pseudo classes and pseudo elements
+diff background properties in css 
+how to stop repeated background in css 
+what are the diff oreintations in css 
+what is css tranistions 
+css transforms 
+what is diff b/w max-width and min-width 
+what is margin: 0 auto and what is its importance
+what is diff currentcolor and inherit 
+how to create toottip in css 
+how to create pager in css
+how to create pagination in css 
+how to create dropdwon in css 
+how to create navigation menu with active in css 
+what is object-fit 
+create the flex-container with equal widths 
+what is one dimenstional alyout and two dimenstional layout 
+how to use get the icons from the fontawsome 
+how to link css and how to javascript files 
+best place to include external css and external js 
+how to debug css and see the live changes in the browser 
+how to test the responsiveness of the webpage in the browser 
+is it possible to apply id and class to the same element
+can we have same muliple id's in the given page 
+can we have multiple classes in the given page 
+can we have muliple universal selector in the give application 
+what are css gradients and how to add multiple css colors 
+diff b/w hsla, rgba and hex colors 
+

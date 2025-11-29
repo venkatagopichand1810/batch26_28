@@ -1,0 +1,25 @@
+
+steps for the github:
+
+create the github account
+-> new -> create repository 
+give the repository name -> create
+
+
+In order to push the code, come to vs code
+
+//frist time after the creating the repository
+
+1) go to terminal
+2) git init 
+3) git add . 
+4) git commit -m "commit message" 
+5) git remote add origin https://github.com/venkatagopichand1810/batch28_class2.git (example)
+6) git push --set-upstream origin master
+
+
+for the rest of the times
+1) git status ( which will give the active local changes)
+2) git add .
+3) git commit -m "commit message"
+4) git push

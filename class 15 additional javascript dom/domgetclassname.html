@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <style>
+        .something {
+            border-radius: 50px;
+            font-variant: small-caps;
+            line-height: 10px;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para">This is para1</p>
+    <p class="para">This is para2</p>
+    <p class="para">This is para1</p>
+    <p class="para">This is para2</p>
+    <p class="para">This is para1</p>
+    <p class="para">This is para2</p>
+    <p>This is para3</p>
+
+    <button onclick="clickMe()">Click Me</button>
+
+    <script>
+
+        function clickMe() {
+            const ele = document.getElementsByClassName("para");
+            //loop throught the elements 
+            for(let i = 0; i < ele.length; i++){
+                ele[i].style.color = 'white';
+                ele[i].style.padding = '20px';
+                ele[i].classList.add("something")
+
+            }
+        }
+
+        // 0 < 6 true
+
+    </script>
+</body>
+
+</html>
+
+

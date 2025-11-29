@@ -1,0 +1,37 @@
+Pros & Cons Of relational Database
+
+Advantages RDBMS
+---Maintain the data integrity and accuracy 
+---organized structure using tables, rows and columns
+---structure query language 
+---support relationships one to one, one to many 
+---data consistency 
+---backup and recovery support 
+
+
+
+cons
+--------
+complex design for the large database 
+performance issues for very large datasets
+high licensing and Maintenance cose is very high
+when we are dealing with muliple tables we will see complexcity ....joins 
+
+
+Relational Database Vs Non Relational Database
+
+RDBMS
+--- 
+store the data in tables row and columns
+fixed schema...we must and should define the structure before inserting the data
+support primary key and foreign keys 
+Uses structured query language
+EX: mysql, postgresql 
+
+
+Nosql
+--------
+stores the data in documents, key - value pair 
+dynamic schema, we can change the structure at anytime
+faster for the large scale and real time apps
+ex..mongodb, firebase, radis, cassandra, dynamoDB

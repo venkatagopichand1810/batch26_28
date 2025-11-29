@@ -1,0 +1,9 @@
+
+DOM -> DOCUMENT OBJECT MODEL, we can able to select and manuplate the HTML element dynamically
+
+DOM -> Represents as a tree structure which contains the nodes or objects
+
+
+
+appendChild appends a single Node to the last child of the parent
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .dark {
+                background-color: black;
+                color: white
+
+            }
+            .light {
+                background-color: white;
+                color: black
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="changeTheme()">Change you theme</button>
+        <script>
+            // on page page
+            window.onload = function() {
+                let theme = localStorage.getItem('theme'); //get the value from local storage
+                if(theme){
+                    document.body.className = theme; //apply theme
+                } else {
+                    document.body.className = "light"
+                }
+            }
+            function changeTheme() {
+                let currentTheme = document.body.className; //light or dark 
+                let newTheme = currentTheme === "light" ? "dark" : "light"; //ternary
+                document.body.className = newTheme;
+
+                // save the new theme in the localstorage
+                localStorage.setItem("theme", newTheme)
+            }
+        </script>
+
+    </body>
+</html>

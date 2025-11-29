@@ -1,0 +1,11 @@
+normalization is used to organize the data to reduce the redundancy, 
+it is going to remove the duplicate data and imporve the data integrity
+
+1) 1NF
+each column must contain atomic values, it should contain only one value
+no repating values 
+2) 2NF
+3) 3NF
+4) BCNF(boyce codd normal form)
+5) 4NF
+6) 5NF

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p>This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+    <button onclick="changeMe()">Click Me</button>
+    <img src="https://media.istockphoto.com/id/1183183791/photo/talented-female-artist-works-on-abstract-oil-painting-using-paint-brush-she-creates-modern.jpg?s=612x612&w=0&k=20&c=QrR6QQxioyM6zT5qPpKxr9KFz2VRrhVO3rXJ8fIfswY=">
+    <img src="https://media.istockphoto.com/id/1183183791/photo/talented-female-artist-works-on-abstract-oil-painting-using-paint-brush-she-creates-modern.jpg?s=612x612&w=0&k=20&c=QrR6QQxioyM6zT5qPpKxr9KFz2VRrhVO3rXJ8fIfswY=">
+    <img src="https://media.istockphoto.com/id/1183183791/photo/talented-female-artist-works-on-abstract-oil-painting-using-paint-brush-she-creates-modern.jpg?s=612x612&w=0&k=20&c=QrR6QQxioyM6zT5qPpKxr9KFz2VRrhVO3rXJ8fIfswY=">
+    <button onclick="imagehide()">Hide image</button>
+
+    <script>
+        // select the elements
+        function changeMe() {
+            const paragraphs = document.getElementsByTagName("p");
+
+            // for loop
+            for (let i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.color = "green";
+                paragraphs[i].style.backgroundColor = "black"
+                paragraphs[i].textContent = "Venkat " + (i + 1)
+            }
+        }
+
+        function imagehide() {
+            const images = document.getElementsByTagName("img");
+
+            for(let i =0; i< images.length; i++){
+                images[i].style.display = "none"
+            }
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

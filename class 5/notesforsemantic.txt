@@ -1,0 +1,16 @@
+
+header -> top section, logo, navigation 
+nav -> menu bar,sidebars
+main -> main content of the page
+article -> blog post, news article indpendent content
+section -> group of section 
+footer -> represents the bootm of the page, copyright, links 
+address -> address, contact information 
+figure -> images
+figcaption -> 
+summary 
+mark 
+abbr
+cite
+blockquote
+q

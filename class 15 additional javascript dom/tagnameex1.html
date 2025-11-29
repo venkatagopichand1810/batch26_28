@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h2>Items in cart</h2>
+    <button onclick="checkout(this)">Buy Now</button>
+    <button>Continue Shopping</button>
+    <button>Remove Item from cart</button>
+
+    <script>
+        function checkout(clickedButton) {
+            const buttons = document.getElementsByTagName("button");
+            // initial text of the buy now
+            const buyNow = clickedButton.textContent; // Buy Now
+            // disable all the buttons
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].disabled = true; // disabling the buttons
+                if (buttons[i] === clickedButton) {
+                    buttons[i].textContent = "Processing "
+                }
+
+            }
+            setTimeout(() => {
+                alert("order placed successfully");
+                // enable all the buttons
+                for (let i = 0; i < buttons.length; i++) {
+                    //enabling the button
+                     buttons[i].disabled = false;
+                //rename the proceessing to buy now
+                clickedButton.textContent = buyNow
+
+                }
+            }, 4000)
+
+        }
+    </script>
+</body>
+
+</html>

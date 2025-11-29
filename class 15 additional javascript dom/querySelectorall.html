@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1 id="heading">Welcome</h1>
+    <h1 id="heading">Hello everyone</h1>
+    <button onclick="clickMe()">click me</button>
+
+    <script>
+        function clickMe() {
+            // using the querySelectorall we can able to select the elements with id, class and tag
+            // querySelectorall will selects all the elements
+            const headings = document.querySelectorAll("h1");
+             for(let i = 0; i < headings.length; i++){
+                 headings[i].style.color = "orange"
+             }
+
+        }
+
+    </script>
+</body>
+
+</html>

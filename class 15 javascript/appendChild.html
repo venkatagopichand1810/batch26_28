@@ -1,0 +1,26 @@
+<div id = "container">
+
+
+</div>
+
+<script>
+    const users = ["Venkat", "Ram", "Shiva", "shilpa", "stephen", "gautham", "rekha", "sandhaya", "ramesh", "arun"];
+
+    const container = document.getElementById("container");
+
+    users.forEach(user => {
+        // creating the element dynamically
+        const card = document.createElement("section");
+        card.style.border = "5px solid black";
+        card.style.margin = "10px";
+        card.style.padding = "10px";
+        card.textContent = user; // i wanted to show the user
+        if(user === "stephen") {
+            card.style.backgroundColor = "orange";
+             card.style.padding = "50px";
+        }
+        container.appendChild(card); //appeend the section element to this container
+        
+
+    })
+</script>

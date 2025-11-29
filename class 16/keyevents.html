@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Key events</title>
+    </head>
+
+    <body>
+        <h1 id = "keyevents"></h1>
+
+        <script>
+            document.addEventListener("keydown", function(e) {
+                // display which key was pressed
+                document.getElementById("keyevents").textContent = "key Pressed down is"  + e.key;
+
+
+
+            })
+
+        </script>
+    </body>
+</html>

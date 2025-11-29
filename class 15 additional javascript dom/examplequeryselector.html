@@ -1,0 +1,30 @@
+<form id = "signupForm">
+    <input type="text" placeholder="Enter the name" class="required" /> <br><br>
+    <input type="email" placeholder="Enter the email" class="required" /><br><br>
+    <input type="password" placeholder="Enter the password" class="required" /><br><br>
+    <button type="button" onclick="validateForm()">Submit</button>
+
+    <script>
+        function validateForm() {
+            const inputs = document.querySelectorAll(".required"); //to to select all the input with the class name "required"
+
+            let isValid = true; //init
+
+            inputs.forEach(input => {
+                if(!input.value){
+                    input.style.border = "2px solid red";
+                    isValid = false;
+                } else {
+                    input.style.border = "2px solid green"
+                }
+            })
+
+            if(isValid){
+                alert("Form is submitted successfully")
+            } else {
+                alert("Please fill all the fields")
+            }
+
+        }
+    </script>
+</form>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DOM
+        </title>
+        <style>
+            body {
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <header>
+            <nav>
+                <a href="">Home</a>
+                  <a href="">About</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Vision</h1>
+            </section>
+            <section>
+                <h1>MIssion</h1>
+            </section>
+        </main>
+        <footer>
+            @copyright
+        </footer> -->
+
+        <h1 id = "today" style="color:orange;">Today is Saturday!!!!!!!</h1>
+        
+        <h1 id = "today" style="color:orange;">Today is Saturday!!!!!!!</h1>
+        <button id = "arun" onclick="venkat()">Click me</button>
+
+        <script>
+            function venkat() {
+                // const h1 = document.getElementById("today");
+                // h1.textContent = "content is changed"
+                // h1.style.color = "green"
+                // h1.style.backgroundColor = 'black'
+                // h1.style.padding = "20px";
+
+                const h1 = document.getElementById("today");
+                console.log(h1);
+                const p = document.createElement("p");
+                p.textContent = "arun doubt"
+                p.style.color = "brown";
+                p.style.padding = "50px"
+                p.style.backgroundColor = "black"
+                h1.parentNode.replaceChild(p, h1)
+
+            
+                
+            }
+        </script>
+
+    </body>
+</html>
+
+<!-- whenever we wanted to update or manipulate or change something, 
+ 
+#1
+we have to select the element using
+1) document.getElementbyID
+2) document.getElementbyClass
+3) document.getElementbyTag
+
+-->
+
+
+<!-- wanted to create the new element -->

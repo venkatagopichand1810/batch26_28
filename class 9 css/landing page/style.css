@@ -1,0 +1,219 @@
+/* universal selector..global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: skyblue;
+    padding: 15px 30px;
+    color: black;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    color: rgb(220, 224, 135)
+}
+
+.hero {
+    height: 100vh;
+    background: url("https://plurisacademy.com/media/k2/items/cache/787ae9ec9023a82f5aa7e4c1a64f73cb_XL.jpg");
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 57px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(50, 49, 49, 0.5);
+    z-index: 1
+}
+
+.hero-text {
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: 66px;
+    color: rgb(0, 166, 255);
+    padding: 20px;
+}
+
+
+.hero-text p {
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.mission {
+    background-color: #cbcaca;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.team-section {
+    padding: 60px 20px;
+    background: slategray;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+.member {
+    width: 360px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 60%;
+}
+
+.member h4 {
+    margin-top: 15px;
+    font-size: larger;
+    color: aqua;
+}
+
+.member p {
+    margin-top: 15px;
+    font-size: smaller;
+    color: rgb(0, 5, 5);
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    gap: 30px;
+    background-color: #eee5a2;
+}
+
+.card {
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(50, 49, 49, 0.5);
+    background: rgb(185, 175, 79);
+    color: rgb(0, 3, 3);
+    transition: transform 0.3s ease;
+   
+}
+
+.card:hover {
+   transform: translateY(-15px); 
+}
+
+.about {
+    padding: 60px 20px;
+    background-color: rgb(57, 203, 211);
+    text-align: center;
+}
+.about h2 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section h2.logo {
+    font-size: 39px;
+    color: #eee5a2;
+}
+
+.footer-section h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section li, .footer-section a {
+    font-size: 14px;
+    line-height: 2;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.footer-section button {
+    padding: 10px;
+    width: 100%;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-section button:hover {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(206, 148, 40);
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px
+}

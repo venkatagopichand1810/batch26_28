@@ -1,0 +1,6 @@
+
+min-width 
+max-width
+min-height
+max-height
+orientation : portrait or landscape

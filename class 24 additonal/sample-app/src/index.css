@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: bisque;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+.stock {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.in-stock {
+  color: green
+}
+
+.out-stock {
+  color: red;
+  font-size: 25px;
+}

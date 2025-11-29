@@ -1,0 +1,23 @@
+
+HTML -> HYPERTEXT MARKUP LANGUAGE. To create the webpages and content on the web
+
+Backbone of web -> every website on the web is built on HTML 
+
+HTML
+
+H -> HYPER -> It can link to other documents(webpages)
+T -> TEXT ->  IT handles the text-based content
+M -> MARKUP -> It used tags to mark th eparts of the documents
+L ->LANGUAGE -> Its having some set of rules for writing the web pages
+
+
+html 4
+
+html 5 -> features...
+
+!DOCTYPE -> declares the document type...that we are using html5 document
+html tag -> the root of the HTML document
+
+
+SEO -> Search Engine Optimization 
+Google Ranking algo

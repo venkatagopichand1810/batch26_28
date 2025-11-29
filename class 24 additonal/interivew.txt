@@ -1,0 +1,39 @@
+
+what is npm
+how to setup react js
+how to setup react js using vite
+what is package.json
+how to run react application 
+what is the default port number of react 
+what is react and why we need to use react
+what are the main features of react
+what is virtual dom
+what is single page application
+how spa is different to mpa
+what is diff library and framework
+why react is library
+what is vite and how to create the react project using vite
+performance wise which is better vite or creat react app
+what is the folder structure of react, can you explain 
+when run the react using npm start.. what is flow and how it will show the page
+what is index.html and what is index.js 
+what is component is react
+how to combine mutiple components
+what is jsx 
+syntax for jsx 
+what are rules of jsx 
+what is react fragment
+what are the differnt ways to apply the styles in react
+can we write javascript in react 
+what are props 
+how to pass props from parent to child component
+can we change the props, is props is mutable or immuatable 
+how to set the default props in react
+how to pass data from child to parent component
+can we pass the functions as a props 
+real the props
+what is prop drilling in react
+give an example for the prop drilling
+what is props children composition
+
+

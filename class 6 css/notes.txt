@@ -1,0 +1,19 @@
+
+HTML -> document
+css -> presentation we are going css -> cascading style sheets.
+
+CSS is the lang used to style and design the HTML elements on the webpage
+
+
+key: value
+
+declaration in css
+
+color = green
+
+color: green;
+
+color: orange;
+
+color: key or property
+orange: value

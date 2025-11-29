@@ -1,0 +1,6 @@
+
+// Router is the wrapper which is used to enable the routing in our react applicaton 
+
+// Routes -> it is the container which contains all the the paths of the components
+
+// Route -> single path component mapping

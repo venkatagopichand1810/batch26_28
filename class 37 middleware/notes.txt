@@ -1,0 +1,3 @@
+middleware is a function which sits b/w the requesst and response, middleware can modify the request and response 
+
+client (request) -> middleware -> response

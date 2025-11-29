@@ -1,0 +1,103 @@
+//just follow this interview questions for javascript
+
+
+what is javascript 
+different ways to include the javascript 
+what are the primitive data types in javascript examples 
+what are non primitive data types or reference data types 
+diff b/w primitive and non -primitive data types
+what is dif var and let 
+diff let and const 
+diff let const and var
+what is map and set, its differences 
+what is instanceof operator 
+what is typeof operator 
+what is optional chaining operator 
+waht is rest and spread operator and its differences
+what are the different operators in javascript
+diff null and undefined 
+diff b/w equal and equality == and ===
+what is function and how to declare the function
+diff types of functions in javascript 
+diff b/ normal function and arrow function
+diff b/w anonymous function and function expression 
+what is IIFE and example 
+what is clousre and example 
+what is this keyword 
+what is hoisting and explain 
+what is use of "use strict"
+what is diff b/w session storage and local storage, cookie
+what is use of using template literals 
+diff local scope and global scope
+diff b/w block scope and function scope 
+give some examples for rest and spread operator
+what is object destructuring and what are its advantages 
+what is array destructuring and its advantages
+what is setTimeout 
+what is diff by sync and asyc 
+what is callback 
+what is callback hell and example
+what is promise and why we are using over callback 
+what is promise chaining
+what are few methods in promise chaining
+how to handle the errors in javascript.. error handling 
+how to throw the custom error message 
+what is fetch and how to do an api call and show the data in the ui 
+what is async and await and its advantages over promise 
+what are diff states of promise
+what is diff b/w while and do while 
+diff b/w for, foreach, for..of and for..in 
+what is diff splice and slice 
+what is json 
+what is diff b.w parse and stringify methods 
+diff b/w call, apply and bind
+what is weak map 
+how to access the object properties in javascript 
+how to access the array elements in javascript
+what is event delegation, event propagation 
+what is use of preventDefault in javascript
+how to clone the object and array in javascript
+what is diff b.w deep copy and shallow copy 
+what are setters and getters methods in javascript
+how to create class in javascript
+what is prototype in javascript 
+what is diff constuctor and normal function in js 
+what is try, catch, throw and finally in js 
+what is event loop and how event loop works in javascript
+what i debounce in js
+what throttle 
+dif stop propagation and preventDefault
+what are different js events
+what is DOM 
+diff dom properties
+what is diff document.getElementByID, byClassName, bytagname, querySelector and querySelectorALl
+what is super keyword
+what is append, prepend and appendChild 
+how sort method works in javascript, comapre function 
+what are modules in javascript, import and export in js 
+what is es6 featues 
+list of array methods, math methods and string methods 
+how to debugging in javascript
+what is reduce method in javascript
+what is every, some and filter methods in javascript and examples 
+what is window.onload 
+
+
+
+how to reverse the number in javascript 
+how to reverse the number in javascript without any predefined methods 
+how to find the 2nd largest number in the given array 
+how to find the third largest number in the given array 
+how to remove the duplicates and count the duplicate numbers which are present in the given array 
+how to reverse the string without predefined method 
+find the repeated words in the given sentance in javascript
+find the sum of the products in js 
+find the sum of the product price in js using reduce method 
+
+pattern program question 
+*
+**
+***
+****
+*****
+

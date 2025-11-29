@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+                color: white;
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                padding: 20px
+
+            }
+
+            .box1 {
+                background-color: green;
+                z-index: 1;
+            }
+
+            .box2 {
+                background-color: orange;
+                z-index: 2;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+
+    </body>
+</html>
+
+<!-- 
+z-index is used to control the stacking order of the elements 
+a hihger z-index value will appear at the top in the stack
+ 
+
+-->

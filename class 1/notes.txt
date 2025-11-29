@@ -1,0 +1,48 @@
+FULL STACK WEB DEVLOPMENT -> to process of developing both FE (client-side) and back-end(server-side) parts of the application
+
+A full stack devloper who works on 
+
+1) Frontend (what users see)
+2) backend(the server logic)
+3) database(what data is stored)
+
+what is FE:
+
+The Frontend is the visual part of the website or application.
+
+Technologies used in FE
+1) HTML -> structure of the web page 
+2) CSS -> styling and layout
+3) javascript -> interactivity (clicking the buttons etc)
+4) FE framworks/libraries ...React js or angular js or vue js 
+
+
+what is backend
+
+The backed is the server-side of the web application
+
+1) business logic
+2) database communication
+3) auth
+4) application
+
+Technologies used in BE:
+
+Nodes js(javascript), python, php, ruby, java etc
+
+framworks: Express js, Django, spring
+
+
+waht is database:
+
+A database stores, retrieves and manages the data of the application
+
+Types of databases: (structured)
+mysql, postgresql, sqlLite
+
+NOsql database: unstructured
+mongodb, firebase...
+
+
+
+

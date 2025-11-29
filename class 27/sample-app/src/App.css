@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-bottom: 9px solid skyblue;
+  margin-bottom: 40px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  background-color: rgb(140, 192, 236);
+  margin: 20px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-price {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
+.btn {
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(11, 11, 12);
+  color: white;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: brown;
+}
+
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0
+}
+
+.navbar {
+  background-color: rgb(7, 175, 236);
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 32px;
+}
+
+.navbar button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 600px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.cart-content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.close-button {
+  position: absolute;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  top: 10px;
+  right: 18px;
+}
+
+.cart-item {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.cart-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 32px;
+}
+
+.removebtn {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+.cart-info {
+  text-align: start;
+  padding-left: 20px;
+}
+
+.cart-info h2 {
+  font-size: 15px;
+  color: rgb(255, 85, 0);
+}

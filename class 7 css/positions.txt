@@ -1,0 +1,24 @@
+
+position: static
+
+this is the default position, when we apply top left bottom right it will not effect anything
+
+position: relative
+
+It will positioned relative to its normal position but we can able to apply top right bottom left, 
+so by apply this we can move the element from its regular position
+
+
+position: absolute
+The element is removed from the normal flow and positioned relative to the nearst positioned ancestor(relative, sticky, fixed)
+if no ancestor then it will positioned with the html document
+
+
+position: fixed
+
+The element is fixed to the viewport, if the page is scorlled the element will be positioned int the same position
+
+
+position: sticky
+
+based up on the user scroll the element with sticky position will sticked, like position fixed

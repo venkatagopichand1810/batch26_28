@@ -1,0 +1,249 @@
+.invoice-preview {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #667eea;
+}
+
+.invoice-logo h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.invoice-meta {
+  text-align: right;
+}
+
+.meta-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.meta-value {
+  color: #2d3748;
+  font-weight: 500;
+}
+
+.invoice-parties {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.party-section {
+  background: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.party-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #667eea;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.party-details p {
+  margin: 6px 0;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.party-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #2d3748 !important;
+}
+
+.party-email {
+  font-size: 0.875rem;
+}
+
+.party-address {
+  font-size: 0.875rem;
+  white-space: pre-line;
+}
+
+.invoice-items {
+  margin-bottom: 30px;
+}
+
+.preview-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.preview-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.preview-table th {
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.preview-table td {
+  padding: 14px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+
+.preview-table tbody tr:last-child td {
+  border-bottom: 2px solid #cbd5e0;
+}
+
+.desc-col {
+  width: 50%;
+}
+
+.qty-col,
+.rate-col,
+.amount-col {
+  text-align: right;
+  width: 16.66%;
+}
+
+.empty-message {
+  text-align: center;
+  color: #a0aec0;
+  font-style: italic;
+  padding: 40px !important;
+}
+
+.invoice-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  gap: 40px;
+}
+
+.summary-label {
+  font-size: 1rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.summary-value {
+  font-size: 1rem;
+  color: #2d3748;
+  font-weight: 700;
+  text-align: right;
+}
+
+.total-row {
+  border-top: 2px solid #cbd5e0;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+.total-row .summary-label,
+.total-row .summary-value {
+  font-size: 1.5rem;
+  color: #1a202c;
+}
+
+.invoice-footer {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 2px solid #e2e8f0;
+}
+
+.footer-text {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.footer-note {
+  font-size: 0.875rem;
+  color: #718096;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .invoice-preview {
+    padding: 24px 16px;
+  }
+
+  .invoice-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .invoice-meta {
+    text-align: left;
+  }
+
+  .invoice-logo h1 {
+    font-size: 2rem;
+  }
+
+  .invoice-parties {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .preview-table {
+    font-size: 0.75rem;
+  }
+
+  .preview-table th,
+  .preview-table td {
+    padding: 8px 4px;
+  }
+
+  .summary-row {
+    min-width: 100%;
+  }
+}
+
+@media print {
+  .invoice-preview {
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+}
+

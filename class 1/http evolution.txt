@@ -1,0 +1,22 @@
+
+http -> hypertext tranfer protocol
+
+1991 ...http/0.9
+very basic protocol
+get method
+
+1996 HTTP/1.0
+POST 
+STATUS CODES
+HTTP HEADERS
+
+1997 HTTP/1.1
+Caching
+
+
+http/2 2015
+more secure
+
+
+http/3 2022
+quic protocol tcp

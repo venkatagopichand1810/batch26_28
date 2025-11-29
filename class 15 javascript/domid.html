@@ -1,0 +1,28 @@
+<!-- <style>
+    #bodyElement {
+        background-color: orchid;
+    }
+
+</style> -->
+
+
+<body id = "bodyElement">
+    <button onclick="backgroundChange()">Change Background color</button>
+
+
+    <script>
+        let isWhite = true;
+
+        function backgroundChange() {
+            const body = document.getElementById("bodyElement");
+
+            if(isWhite) {
+                body.style.backgroundColor = "black"
+            } else {
+                body.style.backgroundColor = "white"
+            }
+            isWhite = !isWhite; //fliping the boolean
+        }
+
+    </script>
+</body>

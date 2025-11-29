@@ -1,0 +1,44 @@
+.board-container {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.board-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.board-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.board-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.board-subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.board-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .board-columns {
+    grid-template-columns: 1fr;
+  }
+  
+  .board-title {
+    font-size: 2rem;
+  }
+}
+

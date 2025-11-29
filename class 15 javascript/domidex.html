@@ -1,0 +1,37 @@
+
+
+<form autocomplete="off">
+   Exam: <input type="text" placeholder="Enter your exam">
+   <button id = "myButton" onclick="exam()">Submit</button>
+</form>
+
+<input type= "password" id = "password" placeholder="Enter your password" />
+<button onclick="passwordShow()">submit</button>
+
+<label> 
+    <input type = "checkbox" id = "check" onchange="showPassword()" /> Show password
+</label>
+
+<script>
+    function exam() {
+        const btn = document.getElementById("myButton");
+        alert("successfully submitted")
+        btn.textContent = "submitted is done"
+        btn.disabled = true; // disabling the button 
+    }
+
+    function passwordShow() {
+        const pwd = document.getElementById("password");
+       pwd.type =  pwd.type === "password" ? "text" : "password"
+
+    }
+
+    function showPassword() {
+            const pwd = document.getElementById("password"); //selecting the input password field
+            const check = document.getElementById("check"); //selecting the checkobx filed
+
+            // if checkbox is checked, show the password else hide it 
+            pwd.type = check.checked ? "text" : "password"
+
+    }
+</script>

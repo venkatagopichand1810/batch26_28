@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <style>
+            .badge {
+                background-color: red;
+                color: white;
+                font-size: 12px;
+                padding: 4px 8px;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="addToCart()">Add to Cart</button>
+        <div class="cart">
+            Cart <span class="cart-count badge">0</span>
+        </div>
+
+        <script>
+            let count = 0; // iniitialize the variable count to track the items in the cart, start value will be 0
+            function addToCart() {
+                count++; // increment the cart count by 1 each time when the button is clicked
+                const cartBadge = document.getElementsByClassName("cart-count");
+                for(let i =0; i<cartBadge.length; i++){ //loop each cart count element
+                    cartBadge[i].textContent = count; //setting the text content with respect to current count value
+                }
+            }
+        </script>
+    </body>
+</html>

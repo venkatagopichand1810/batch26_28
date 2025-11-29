@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Keyboard event example</title>
+        <style>
+            input {
+                width: 60%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Search products</h1>
+        <input type="text" id = "searchBox" placeholder="Search for products brands and more">
+        <ul id = "resultList"></ul>
+        <script>
+
+            const products = ['ac', "washing machine", "car", "shirt", "brush", "soap", "cloths", "books", "pencils"];
+            
+            const searchBox = document.getElementById("searchBox");
+
+            const resultList = document.getElementById("resultList");
+
+            // addeventlistener keyup
+            searchBox.addEventListener("keyup", function() {
+                const query = searchBox.value; //whatever entering the value in the input field
+                resultList.innerHTML = "" //clear the previous result
+
+                const filtered = products.filter(product => product.includes(query)); //checking the entered value in the products array
+                    filtered.forEach(product => {
+                        const li = document.createElement("li"); //creating the li inside ul
+                        li.textContent = product;
+                        resultList.appendChild(li); //we are adding the li to ul
+
+                    })
+
+
+            })
+
+
+
+
+        </script>
+    </body>
+</html>

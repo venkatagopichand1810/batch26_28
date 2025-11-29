@@ -1,0 +1,24 @@
+
+<h1 id = "heading">Original text</h1>
+<button onclick="changeText()">Change text</button>
+
+<script>
+    function changeText() {
+        const heading = document.getElementById("heading")
+        heading.textContent = "new text"
+    }
+</script>
+
+
+<div id = "content">
+    <strong>Venkat</strong>
+</div>
+<button onclick="changeText()">Change text</button>
+
+<script>
+    function changeText() {
+        const content = document.getElementById("content")
+        content.innerHTML = "<mark>Venkata gopichand</mark>"
+    }
+</script>
+

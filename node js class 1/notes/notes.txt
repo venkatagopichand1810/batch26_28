@@ -1,0 +1,16 @@
+nodejs is the open source javascript runtime enviroment that allows to run the javascript 
+outside the browser (on the server side).
+
+
+node js is the BE 
+node js software to write the javascript
+node js having inbuit v8 engine
+
+node js: we are going to create the BE using javascript that is running outside of the browser in the server
+
+ex..
+
+IOT applications .....
+streaming apps....
+whatapp...chat apps 
+real time applications 

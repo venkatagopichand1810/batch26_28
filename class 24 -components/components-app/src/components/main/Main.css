@@ -1,0 +1,12 @@
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: row;
+}
+
+.gallery img {
+    width: 20%;
+    object-fit: contain;
+    margin: 20px;
+}

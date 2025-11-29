@@ -1,0 +1,39 @@
+1) get -> use to request data from the server, it will change anything on the server
+ex: fetching all the products 
+
+2) post -> create the new data 
+used to send the new data to the server 
+Server will create the new record with the data we send 
+
+3) patch -> partial update... update the existing data 
+used to update only specific fields of the existing data 
+
+4) put -> full update of the existing data
+used to replace the entire resource 
+
+5) Delete -> Remove the data
+used to delete the data from the server 
+key note: once the data is deleted from the server, it will exits anymore
+
+
+For fetch...
+
+for the get call no need to spcifiy the get method
+
+for all the rest of the methods we have to spcifiy the method names 
+
+
+
+javascript object
+------------------------------
+const data = {
+    name: "venkat",
+    city: "bangalore"
+}
+
+json object
+---------------------------
+const data = {
+    "name": "venkat",
+    "city": "bangalore"
+}

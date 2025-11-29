@@ -1,0 +1,49 @@
+
+
+<style>
+
+    /* @keyframes venkat {
+        from {transform: translateX(100%);}
+        to {transform: translateX(0);}
+    } */
+
+    
+    @keyframes venkat {
+        0%, 100% {transform: translateY(0);}
+        50% {transform: translateY(-50px);}
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+        animation-name: venkat;
+        animation: venkat 1s infinite ease-in-out;
+    }
+
+
+</style>
+
+
+<div class="box">
+   
+</div>
+
+
+
+
+
+
+<!-- @keyframes animationName {
+    0% {start style}
+    50% {midpoint style}
+    100% {end style}
+} -->
+<!-- 
+.selector {
+    animation-name: animationName;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0.3s
+    animation-iteration-count: infinite
+    animation-direction: alterante
+} -->

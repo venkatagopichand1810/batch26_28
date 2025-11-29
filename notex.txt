@@ -1,0 +1,144 @@
+ interview questions
+
+
+what is the diff map and foreach
+how to render the list of data in react using map
+is map() function modify the origial array
+write a program to render the list of items using the map function in react
+what is the filter method
+is filter() modify the origial array 
+what is diff filter and map method 
+give the example for the filter in react 
+what is reduce method and dif from map method 
+what is accumulator
+how to cal total price of the itesm in the cart using reduce
+what is the purpose of intialvalue in reduce method 
+what is push and pop, what it will return 
+what is diff b/w foreach and map
+is foreach going to return new array? 
+when to use map and when to use foreach
+what is slice and splice, explain the syntax
+is slice modify the origial array?
+is splice modify the original array 
+how to exract the items from the cart
+how to add new itesm to the cart 
+what is indexOf and if the element is not found what it will return
+
+
+class 26 react interview
+
+diff class components and functional components in react
+what is statefull and stateless components
+what are react hooks 
+how to create the class component in react
+what is state and setState methods in class component
+how to maintain the state of the application in react
+what is usestate and explain the syntax for usestate 
+is state variable is mutable or immutable
+what is useeffect used for and give syntax for useeffect
+what is the purpose of depedency in useeffect
+what happens if we dont have dependency in useeffect
+how to run useeffect only once 
+how to do an api call call using useffect, give example
+how to handle loading and error stats during the api calls in useeffect
+how to use fetch, async/await in useeffect
+what is the key prop in react 
+why we have to use key prop 
+what happens if we dont provide the key props 
+how to use key prop in arrays and objects 
+diff b/w props and state
+
+class 28
+what is the purpose useCallback in react
+how useCallback help with peformance optimization 
+what is diff b/w useCallback and usememo
+real time example for useCallback
+what is memo
+what will will happen if we use memo 
+what is going happen if we are not using memo 
+what are forms in react
+diff kinds of forms in react 
+what are controlled forms 
+where exactly we have to use controlled forms in real time
+what are uncontolled forms 
+which hook we are going to use in controlled forms 
+which hook we are going to use in uncontolled forms 
+what is useRef hook and where we wil use in react 
+diff useRef and useState in react 
+where we will use uncontolled forms
+what is the purpose of useMemo hook 
+how to avoid unnecessary rendering in react
+which hook we are going to use when we have expensive operations in react and how can stop rerenders 
+what is preventDefault 
+how to access values in controlled and uncontolled forms 
+how to maintain the state of the application in react
+how to maintain the complex state of the application 
+expalin diff b/w useState and useReducer 
+what is the syntax for usestate and useReducer
+give the syntax for useReducer 
+what is state, dispatch in useReducer syntax 
+what is reducer function in useReducer
+can you explalin an example for useReducer
+how to update the state using useReducer
+
+
+class 29
+what is the react router and how to setup the router in react 
+what is diff b.w SPA and map
+what is browserrouter 
+what is Router, routes, and route and link 
+how to create the navgiation links using react router
+what is useNavigate used for 
+what is useParms 
+what is useSeachParams
+what is outlet 
+how to implement nested routing in react router 
+how to handle 404 route issues in react router 
+what is lazy loading and how implement in react 
+what is useLocation hook 
+how to navigate from one route to another router programttically 
+how to fetch the ID from the URL 
+
+
+
+
+
+
+
+class 30 
+
+what is diff b/w fetch and axios in react 
+how to make simple Get request using fetch in react and diplay in jSX
+how to make simple Get request using axios in react and diplay in jSX
+do we need to add headers in axios 
+does axios automatically parsse JSON responses? 
+how to handle erros with fetch 
+how to handle errors with axios 
+how to make post request with the JSON body using fetch 
+how to make the post request with axios 
+is axios coming with javascript or is it npm package?
+
+
+class 31
+what is the context api in react 
+what is prop drilling and how to fix the prop drilling in react 
+why we have use context api instead of props 
+what problem context api solves
+what are main building blocks of context api,
+what is creatContext, provider, useContext 
+what is consumer with respect to context api
+how do create the context in react 
+how we can avoid the props and how to use the context api in the components
+what are the drawback of context compared redux/mobx/zustand 
+
+
+
+
+
+
+
+
+
+
+
+

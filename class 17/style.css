@@ -1,0 +1,58 @@
+.body-quiz-container {
+    background-color:lightcyan;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    background-color: skyblue;
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#question {
+    font-size: 27px;
+    color: rgb(5, 128, 251);
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: rgb(8, 15, 20);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.wrong {
+    background-color: red;
+}
+
+.correct {
+    background-color: green;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer {
+    color: rgb(255, 0, 0);
+    font-size: 27px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.next-btn {
+    background-color: aqua;
+    color: black;
+    display: none;
+}
+

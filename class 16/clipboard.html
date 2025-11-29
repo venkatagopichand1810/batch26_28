@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <textarea id = "textarea" placeholder="message" cols="50" rows="10"></textarea>
+
+        <!-- logs -->
+         <div id = "log" class="log">logs will appear here...</div>
+
+         <script>
+            const textarea = document.getElementById("textarea");
+            const log = document.getElementById("log");
+
+            // clipboard events
+            textarea.addEventListener("copy", function(event){
+                log.textContent = `content copied  "${window.getSelection().toString()}`
+            })
+
+              // clipboard events
+            textarea.addEventListener("cut", function(event){
+                log.textContent = `content cut  "${window.getSelection().toString()}`
+            })
+
+               // clipboard events
+            textarea.addEventListener("paste", function(event){
+                const pastedData = event.clipboardData.getData("text")
+                log.textContent = `content paste  "${pastedData}`
+            })
+         </script>
+    </body>
+</html>
