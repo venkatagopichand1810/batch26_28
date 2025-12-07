@@ -1,0 +1,29 @@
+what is ODM 
+what is ORM
+what is mongoose
+what is the need of mongoose, as we already of mongodb 
+how to connect node express to mongodb vis mongoose
+what is the purpose of mongoose in node express 
+how to setup the mongoose and install 
+how to connect mongoose to db 
+what is the connect() method used for 
+what is schema in mongoose
+how to create the schema and model 
+b/w schema and model 
+what is the use of mongoose.schema
+write the code for the mongoose connection 
+how to define different field types in the schema 
+what are the available data types in mongoose 
+how to add the validation in mongoose 
+how to create the enum in mongoose 
+how to create the timestamp 
+what is model.create 
+what is save 
+what is find(), findOne(), findByID
+updateOne(), updateMany()
+findByIDandupate
+findbyIDanddelete
+what is where() in mongoose
+what is pre(save)
+what is $gt, $lt, $or, $and,limit, skip in mongoose
+diff schema and model 

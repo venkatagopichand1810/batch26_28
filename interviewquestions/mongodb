@@ -1,0 +1,61 @@
+what is diff b/w rdbms and nosql
+what is diff b/w sql and nosql 
+what is mongodb
+what are the main features of mongodb
+how to setup the mongodb 
+what is mongo shell 
+what is mongo compass 
+what is mongo atlas 
+command to show the list of dbs 
+how to create the collection 
+what is document
+what is collection 
+how the data is stored in monogdb 
+what is bson 
+what is diff json vs bson 
+what are the advantanges of mongodb 
+what are the limitations of the mongodb 
+how to insert single document 
+how to insert many documents 
+how to find the data for the single doc 
+diff insertOne and insertMany 
+diff b/w updateOne and updateMany
+diff b/w findOne and findMany 
+diff b/w deleteOne and DeleteMany 
+what is $set operator in mondob
+what is $lookup 
+what is $projection 
+what is indexing in mongodb
+what is $match
+what is limit() in monogdb 
+how to sort the data
+how to count the documents 
+how to replace the document
+what are the different data types in mongodb
+what is objectId 
+what is $in and $nin 
+what is $and, $or, $not, $nor
+what $regex 
+how do we query for the embedded documents 
+what is index in mongodb 
+why we have to do indexing
+how do we create index in mongodb 
+how to take backup data in mongodb
+what is unqiue index 
+what is hashed index 
+what is expalin() method 
+what is aggregation 
+what is $unwind 
+how to cal avg in aggregation 
+what is $merge atatge 
+what is schema-less in mongodb 
+wha are the pros and cons of the embedded documents 
+what is data modeling 
+what is sharding in mongodb 
+what is replica set 
+what is replication in mongodb 
+what is expalin()
+what is sharding in mongodb 
+how to perfom joins in mongodb 
+how do w ehandle relationships in monogdb 
+expalin mongodb aggregation pipeline 

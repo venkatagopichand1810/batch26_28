@@ -1,0 +1,91 @@
+what is server
+client and server communcation 
+what is nodejs
+what is v8 engine 
+what are the features of nodejs 
+how to setup the backend
+what is package.json
+what is package.json.lock 
+what is npm 
+what is diff npm vs npx 
+what is callback 
+what is asyncawait 
+diff b/s sync and async 
+how to create simple node js server 
+what are modules in node js 
+what is http module and its usage 
+what is createServer in http 
+what are streams in nodejs 
+what are buffers in node js 
+what is os module 
+what is fs module 
+how to read the file,write the file, delete, append, 
+how to create the dir and folder using fs module 
+what is url module 
+what is use of require in node js 
+diff b/w process.nextTick() and setImmediate()
+what is nodemen 
+diff dependency and devdependencies 
+what is module.exports 
+what are the builtin modules in node js 
+how to create custom packages in node js 
+how to install third party package in node js 
+how to add routing in nodejs 
+wha tis hte util module 
+what is event emitter
+how does event driven model works in node js 
+diff b/w process and os module
+what is global object in node js 
+what is promise in node js 
+what are the disadvantages of node js 
+which kind of applications we can build using node js 
+what is .env 
+
+//expess js 
+what is express js 
+we have node, then why we are using express js
+how to create the express js server
+what is router in expessjs
+how to handle routes in express js 
+what is middleware 
+when we are posting the data what middleware we will use 
+what is express.json 
+what is the middleware used to show the static files in express js 
+what is cors 
+how to enables cors in express js 
+what is the rest api 
+how to implment simple rest api and test in postman 
+what are the CRUD operations 
+what is middleware in expressjs
+how do we use query params in express js 
+how to send response in express
+what is res.send vs res.json 
+what is dotenv package
+what is the use of process.env
+diff b/w local and global modules in express 
+diff b/w readfile and readfilesync 
+what is load balancing in node js 
+how do we make an http request in node js 
+what is the axios library 
+diff b/w fetch and axios 
+how do we connect node js with the db 
+what jwt 
+what is bcyprtjs 
+how to hash the password 
+how to generate the token
+how to implement jwt authentication 
+what is session 
+how do we manage sessions in node js 
+what is the use of morgon in express 
+what is throtting 
+what is the purpose .gitignore 
+what are the diff ways to secure our node js applications
+what is worker thread
+what is expess.router()
+what is passport.js
+how to implement authentication and authorization, register and login 
+what is mvc
+how to connect node express to MongoDB via mongoose
+what is flow to implement the backend 
+package.json -> db -> models -> controllers -> middlewares -> routing -> app.js
+how to do the MERN stack application

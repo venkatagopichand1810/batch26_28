@@ -1,0 +1,13 @@
+1.	Can I update the _id of an existing document? If yes, how does the index behave?
+If no, why not? What if I use aggregation update?
+2.	If two documents don’t have the same fields, how does MongoDB compare them during sorting?
+3.	Why does MongoDB treat _id: "10" and _id: 10 as different?
+Shouldn’t NoSQL be flexible with types?
+4.	If Express uses middleware, what happens internally when I call next()? Who calls what?
+5.	What is the difference between req.query, req.params, and req.body? Why do we need 3 different places just to get inputs?
+6.	Can I run two Express servers on the same port if I use two different routes?
+7.	If JWT is signed, why can’t we just encrypt it and skip signing
+8.	Why do we keep the JWT secret on the server if the client already has the token?
+9.	If JWT expires in 15 minutes, how do we stay logged in for hours without typing password again?
+
+sir how to uploaded image and show the display
